@@ -23,4 +23,4 @@ RUN echo "Downloading Goatcounter v${GOATCOUNTER_VERSION}..." && \
 
 
 EXPOSE 80
-CMD ["/usr/local/bin/goatcounter", "serve", "-listen", ":80", "-port", "80", "-tls", "none", "-smtp", "stdout"]
+CMD ["/usr/local/bin/goatcounter", "serve", "-listen", ":80", "-port", "80", "-tls", "none"]
